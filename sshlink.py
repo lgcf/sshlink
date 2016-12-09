@@ -7,8 +7,8 @@ import sys
 import ConfigParser
 import getopt
 
-conf = 'sshlink.ini'
-grunfile = os.getcwd()+'/grun'
+conf = '/usr/local/etc/sshlink.ini'
+grunfile = os.path.dirname(__file__)+'/grun'
 
 
 def sshlink(line,gbkflag):
